@@ -4,32 +4,36 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title></title>
+    <title>Fla! Joyas</title>
 
     <!----------------------Styles--------------------------->
     <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/header.css" />
     <link rel="stylesheet" href="./css/main.css" />
-    <link rel="stylesheet" href="./css/header.css"/>
-    <link rel="stylesheet" href="./css/footer.css">
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
+    />
 
     <!--------------------Fonts---------------------->
-
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Urbanist:wght@300&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&family=Urbanist:wght@200&display=swap"
       rel="stylesheet"
     />
   </head>
   <body>
     <header class="header">
       <div class="header__container">
-        <h1 class="header__title">Fla! Joyas...</h1>
+        <h1 class="header__title">Fla!</h1>
+        <h2 class="header__title --right">Joyas...</h2>
         <div class="header__subtitle">
-          <h4>Accesorios y más</h4>
-          <img class="subtitle__img" src="./src/img/header/brillar.png">
+          <p>
+            Accesorios y más
+            <img class="subtitle__img" src="./img/shine.png" width="25px" />
+          </p>
         </div>
 
         <a class="header__link" href="#main">Ver productos</a>
@@ -37,20 +41,33 @@
     </header>
 
     <main class="main">
-
-
-
       <div class="main__container" id="main">
-
         <div class="cards__container">
-
-
-
+          <a href="./sections/joyas.html">
+            <div class="container__card">
+              <div class="card__content">
+                <img class="card__img" src="./src/img/main/joyas.png" alt="" />
+                <h3 class="card__description">Joyas</h3>
+              </div>
+            </div>
+          </a>
+          <div class="container__card">
+            <div class="card__content">
+              <img class="card__img" src="" alt="" />
+              <h3 class="card__description">Relojes</h3>
+            </div>
+          </div>
 
           <div class="container__card">
             <div class="card__content">
               <img class="card__img" src="" alt="" />
-              <h3 class="card__description">Joyas</h3>
+              <h3 class="card__description">Maquillaje</h3>
+            </div>
+          </div>
+          <div class="container__card">
+            <div class="card__content">
+              <img class="card__img" src="" alt="" />
+              <h3 class="card__description">Accesorios para el cabello</h3>
             </div>
           </div>
           <div class="container__card">
@@ -59,59 +76,27 @@
               <h3 class="card__description">Ropa interior</h3>
             </div>
           </div>
+
           <div class="container__card">
             <div class="card__content">
               <img class="card__img" src="" alt="" />
-              <h3 class="card__description">Relojes</h3>
-            </div>
-          </div>
-          <div class="container__card">
-            <div class="card__content">
-              <img
-                class="card__img"
-                src=""
-                alt=""
-              />
-              <h3 class="card__description">Accesorios para el cabello</h3>
-            </div>
-          </div>
-          <div class="container__card">
-            <div class="card__content">
-              <img
-                class="card__img"
-                src=""
-                alt=""
-              />
-              <h3 class="card__description">Maquillaje</h3>
-            </div>
-          </div>
-  
-          <div class="container__card">
-            <div class="card__content">
-              <img
-                class="card__img"
-                src=""
-                alt=""
-              />
               <h3 class="card__description">Otros</h3>
             </div>
           </div>
-
         </div>
-
       </div>
 
-
-      <a href="https://api.whatsapp.com/send?phone=3482276575" class="btn__wpp" target="_blank">
-        <i class="icon__wpp"></i>
+      <a
+        href="https://api.whatsapp.com/send?phone=3482276575"
+        class="btn__wpp"
+        target="_blank"
+      >
+        <img src="./img/whatsapp.png" alt="" class="wsp__icon" />
       </a>
     </main>
 
-
-
-
-    <footer class="footer"></footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="./script/scripts.js"></script>
+    <script src="./script/btn-wsp.js"></script>
   </body>
 </html>
