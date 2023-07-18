@@ -108,19 +108,19 @@ main{
 
 
 
-
-
-@media (max-width: 768){
+@media (max-width: 768px){
+  .section{
+    margin-top: 20px;
+  }
 
   .card{
-    padding: 7px 0;
-    width: 110px;
-    height: 150px;
+    
+    width: 160px;
+    height:200px ;
   }
   .card__img{
-    width: 110px;
-    height: 110px;
-    
+    width: 100%;
+    height: 160px;
   }
   
 }

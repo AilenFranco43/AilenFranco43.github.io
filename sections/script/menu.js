@@ -3,13 +3,8 @@ window.addEventListener("scroll", function () {
   menu.classList.toggle("abajo", window.scrollY > 0);
 });
 
-
-
 $(document).ready(function () {
-  if(window.matchMedia("(max-width: 800px)").matches) {
-    
-    
-    
+  if (window.matchMedia("(max-width: 800px)").matches) {
     //mostrar y ocultar menu
     var navMenu = $(".container__nav");
     var btnMenu = $("#btn-menu");
@@ -21,7 +16,6 @@ $(document).ready(function () {
         navMenu.css("display", "none");
       }
     });
-
 
     //mostrar y ocultar submenu
 
@@ -45,8 +39,6 @@ $(document).ready(function () {
 
     var menuRopaOculto = true;
     menuDesplegableRopa.click(() => {
-
-       
       if (menuRopaOculto) {
         submenuRopa.css("display", "block");
         menuDesplegableRopa.css("background", "#c8a2ff");
