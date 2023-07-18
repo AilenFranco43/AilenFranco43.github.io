@@ -6,7 +6,7 @@ window.addEventListener("scroll", function () {
 
 
 $(document).ready(function () {
-  if (window.matchMedia("(max-width: 900px)").matches) {
+  if(window.matchMedia("(max-width: 800px)").matches) {
     
     
     
@@ -23,8 +23,6 @@ $(document).ready(function () {
     });
 
 
-
-
     //mostrar y ocultar submenu
 
     var menuDesplegableJoyas = $(".joyas");
@@ -32,26 +30,33 @@ $(document).ready(function () {
     var submenuJoyas = $(".submenu__joyas").children("li");
     var submenuRopa = $(".submenu__ropa").children("li");
 
-    var oculto = true;
+    var menuJoyasOculto = true;
     menuDesplegableJoyas.click(() => {
-      if (oculto) {
+      if (menuJoyasOculto) {
         submenuJoyas.css("display", "block");
+        menuDesplegableJoyas.css("background", "#c8a2ff");
       } else {
         submenuJoyas.css("display", "none");
+        menuDesplegableJoyas.css("background", "none");
       }
-      oculto = !oculto;
-      console.log(oculto);
+      menuJoyasOculto = !menuJoyasOculto;
+      console.log(menuJoyasOculto);
     });
 
+    var menuRopaOculto = true;
     menuDesplegableRopa.click(() => {
-      if (oculto) {
+
+       
+      if (menuRopaOculto) {
         submenuRopa.css("display", "block");
+        menuDesplegableRopa.css("background", "#c8a2ff");
       } else {
         submenuRopa.css("display", "none");
+        menuDesplegableRopa.css("background", "none");
       }
 
-      oculto = !oculto;
-      console.log(oculto);
+      menuRopaOculto = !menuRopaOculto;
+      console.log(menuRopaOculto);
     });
   }
 });
