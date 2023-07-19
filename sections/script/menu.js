@@ -17,6 +17,7 @@ $(document).ready(function () {
       }
     });
 
+    
     //mostrar y ocultar submenu
 
     var menuDesplegableJoyas = $(".joyas");
