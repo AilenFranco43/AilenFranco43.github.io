@@ -8,15 +8,13 @@
 
     <!----------------------Styles--------------------------->
     <link rel="stylesheet" href="../css/reset.css">
-    <link rel="stylesheet" href="css/header-section.css" />
-    <link rel="stylesheet" href="css/main-section.css" />
+    <link rel="stylesheet" href="../sections/css/header-section.css"/>
+    <link rel="stylesheet" href="../sections/css/main-section.css"/>
     
-
     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
     />
-
     <!--------------------Fonts---------------------->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -27,150 +25,117 @@
   </head>
 </head>
 <body>
-    
-
     <header class="header">
-
         <div class="div__btn">
             <input type="checkbox" id="btn-menu" >
             <label for="btn-menu">&#9776;</label>
-
-
         </div>
-
         <div class="logo">
             <img src="../img/logo.png" >
         </div>
-
-
         <div class="container__nav">
-
-
-
-            <nav class="nav">
-                <ul>
-                  <li><a href="../index.html">Inicio</a></li>
-                  
-                  <li><a href="#"class="desplegable">Joyas</a>
-                    <ul class="submenu">
-                      <li><a href="anillos.html">Anillos</a></li>
-                      <li><a href="subcategories/joyas/aros.html">Aros</a></li>
-                      <li><a href="subcategories/joyas/pulseras.html">Pulseras</a></li>
-                      <li><a href="subcategories/joyas/dijes.html">Dijes</a></li>
-                      <li><a href="subcategories/joyas/cadenas.html">Cadenas</a></li>
-                      <li><a href="subcategories/joyas/piercings.html">Piercings</a></li>
-                    </ul>
-                  </li>
-                  <li><a href="relojes.html">Relojes</a></li>
-                  <li><a href="maquillaje.html">Maquillaje</a></li>
-                  <li><a href="accesorios.html">Accesorios para el cabello</a></li>
-                  <li><a href="#" class="desplegable">Ropa interior</a>
-                    <ul class="submenu">
-                        <li><a href="subcategories/ropa/mujer.html">Mujer</a></li>
-                        <li><a href="subcategories/ropa/hombre.html">Hombre</a></li>
-                      </ul>
-                
-                
-                </li>
-                  <li><a href="otros.html" id="current">Otros</a></li>
+          <nav class="nav">
+            <ul>
+              <li><a href="../index.html">Inicio</a></li>
+              
+              <li><a href="#" id="current" class="joyas --desplegable">Joyas</a>
+                <ul class="submenu submenu__joyas">
+                  <li><a href="subcategories/joyas/anillos.html">Anillos</a></li>
+                  <li><a href="subcategories/joyas/aros.html">Aros</a></li>
+                  <li><a href="subcategories/joyas/pulseras.html">Pulseras</a></li>
+                  <li><a href="subcategories/joyas/dijes.html">Dijes</a></li>
+                  <li><a href="subcategories/joyas/cadenas.html">Cadenas</a></li>
+                  <li><a href="subcategories/joyas/piercings.html">Piercings</a></li>
                 </ul>
-              </nav>
+              </li>
+              <li><a href="relojes.html">Relojes</a></li>
+              <li><a href="maquillaje.html">Maquillaje</a></li>
+              <li><a href="accesorios.html">Accesorios para el cabello</a></li>
+              <li><a href="#" class="ropa --desplegable">Ropa interior</a>
+                <ul id="current" class="submenu submenu__ropa">
+                  <li><a href="subcategories/ropa/mujer.html">Mujer</a></li>
+                  <li><a href="subcategories/ropahombre.html">Hombre</a></li>
+                </ul>
+            </li>
+              <li><a href="otros.html">Otros</a></li>
+            </ul>
+          </nav>
         </div>
-
-
     </header>
-
     <main class="main">
         <div class="main__container">
             <section class="section" id="anillos">
                 <div class="section__gallery">
                     
                     <div class="gallery">
-    
                         <div class="card">
-                            <img src="img/pexels-antoni-shkraba-4348078.jpg" alt="" class="card__img"  >
+                            <img src="../sections/img/pexels-antoni-shkraba-4348078.jpg" alt="" class="card__img"  >
                             <div class="card__description">
                             <p>Descripcion</p>
                             </div>
                         </div>
                         <div class="card">
-                            <img src="img/pexels-antoni-shkraba-4348078.jpg" alt="" class="card__img"  >
+                            <img src="../sections/img/pexels-antoni-shkraba-4348078.jpg" alt="" class="card__img"  >
                             <div class="card__description">
                             <p>Descripcion</p>
                             </div>
                         </div>
                         <div class="card">
-                            <img src="img/pexels-antoni-shkraba-4348078.jpg" alt="" class="card__img"  >
+                            <img src="../sections/img/pexels-antoni-shkraba-4348078.jpg" alt="" class="card__img"  >
                             <div class="card__description">
                             <p>Descripcion</p>
                             </div>
                         </div>
-
                         <div class="card">
-                            <img src="img/pexels-antoni-shkraba-4348078.jpg" alt="" class="card__img"  >
+                            <img src="../sections/img/pexels-antoni-shkraba-4348078.jpg" alt="" class="card__img"  >
                             <div class="card__description">
                             <p>Descripcion</p>
                             </div>
                         </div>
-
                         <div class="card">
-                            <img src="img/pexels-antoni-shkraba-4348078.jpg" alt="" class="card__img"  >
+                            <img src="../sections/img/pexels-antoni-shkraba-4348078.jpg" alt="" class="card__img"  >
                             <div class="card__description">
                             <p>Descripcion</p>
                             </div>
                         </div>
-
-                        <div class="card">
-                            <img src="img/pexels-antoni-shkraba-4348078.jpg" alt="" class="card__img"  >
-                            <div class="card__description">
-                            <p>Descripcion</p>
-                            </div>
-                        </div>
-
-                        <div class="card">
-                            <img src="img/pexels-antoni-shkraba-4348078.jpg" alt="" class="card__img"  >
-                            <div class="card__description">
-                            <p>Descripcion</p>
-                            </div>
-                        </div>
-
-                        <div class="card">
-                            <img src="img/pexels-antoni-shkraba-4348078.jpg" alt="" class="card__img"  >
-                            <div class="card__description">
-                            <p>Descripcion</p>
-                            </div>
-                        </div>
-
-                        <div class="card">
-                            <img src="img/pexels-antoni-shkraba-4348078.jpg" alt="" class="card__img"  >
-                            <div class="card__description">
-                            <p>Descripcion</p>
-                            </div>
-                        </div>
-    
-                       
                         
-    
+                        <div class="card">
+                            <img src="../sections/img/pexels-antoni-shkraba-4348078.jpg" alt="" class="card__img"  >
+                            <div class="card__description">
+                            <p>Descripcion</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="../sections/img/pexels-antoni-shkraba-4348078.jpg" alt="" class="card__img"  >
+                            <div class="card__description">
+                            <p>Descripcion</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="../sections/img/pexels-antoni-shkraba-4348078.jpg" alt="" class="card__img"  >
+                            <div class="card__description">
+                            <p>Descripcion</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="../sections/img/pexels-antoni-shkraba-4348078.jpg" alt="" class="card__img"  >
+                            <div class="card__description">
+                            <p>Descripcion</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
-
-            
-
-
-
         </div>
-
-
         <a
         href="https://api.whatsapp.com/send?phone=3482276575"
         class="btn__wpp"
         target="_blank"
       >
-        <img src="../img/whatsapp.png" alt="" class="wsp__icon" />
+        <img src="../../../img/whatsapp.png" alt="" class="wsp__icon" />
       </a>
     </main>
-    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="script/menu.js"></script>
 </body>
 </html>
